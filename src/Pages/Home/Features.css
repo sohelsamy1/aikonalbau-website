@@ -1,0 +1,54 @@
+/* Call to Action Section Styles */
+.cta-section {
+  background-color: #0b213a;
+  /* 👇 এখান থেকে পুরো সেকশনের ওপর ও নিচের প্যাডিং/ফাঁকা জায়গা কন্ট্রোল করুন 👇 */
+  padding-top: 30px;    
+  padding-bottom: 30px; 
+}
+
+.cta-container {
+  /* 👇 এখান থেকে কন্টেনারের ওপর ও নিচের প্যাডিং কন্ট্রোল করুন 👇 */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cta-box {
+  background-color: #111f33;
+  border: 1px solid rgba(197, 160, 89, 0.4);
+  border-radius: 12px;
+  
+  /* 👇 এখান থেকে বক্সের ভেতরের ওপর ও নিচের ফাঁকা জায়গা কন্ট্রোল করুন 👇  */
+  padding-top: 35px;    
+  padding-bottom: 35px; 
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.cta-tag {
+  color: #C5A059;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.cta-title {
+  font-size: 28px;
+}
+
+.cta-desc {
+  max-width: 600px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.cta-btn {
+  background-color: #C5A059;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.cta-btn:hover {
+  background-color: #b28e4e;
+  color: #fff;
+}
