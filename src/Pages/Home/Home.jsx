@@ -4,6 +4,7 @@ import React from 'react';
 import Hero from './Hero';
 import Service from './Service';
 import Features from './Features';
+import About from './About';
 
 
 function Home() {
@@ -11,7 +12,8 @@ function Home() {
     <main>
       <Hero />
        <Service />
-        <Features />
+       <Features />
+       <About />
     </main>
   );
 }
