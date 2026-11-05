@@ -1,0 +1,88 @@
+/* ব্যানার সেকশন এবং এর হাইট (আগের সাইজ ঠিক রেখে গ্রেডিয়েন্ট হালকা করা হলো) */
+.hero-section {
+  min-height: 760px; /* ব্যানার হাইট অপরিবর্তিত */
+  background: linear-gradient(
+      to right, 
+      rgba(11, 33, 58, 0.85) 0%, 
+      rgba(11, 33, 58, 0.70) 35%, 
+      rgba(11, 33, 58, 0.2) 65%, 
+      rgba(0, 0, 0, 0) 100%
+    ), 
+    url('/STARTSEITE/banner.webp') no-repeat center center;
+  background-size: cover;
+}
+
+/* কন্টেন্ট ম্যাক্স উইথ */
+.hero-content {
+  max-width: 650px;
+}
+
+/* টপ ট্যাগ স্টাইল (আগের চেয়ে উপরে তোলার জন্য মার্জিন অ্যাডজাস্ট করা হয়েছে) */
+.hero-tag {
+  background-color: #C5A059;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  margin-bottom: 24px !important; /* আগের চেয়ে গ্যাপ কমানো হয়েছে */
+  display: inline-block;
+}
+
+/* মেইন টাইটেল ফন্ট সাইজ */
+.hero-title {
+  font-size: 38px;
+  color: #fff;
+  line-height: 48px;
+}
+
+/* প্যারাগ্রাফ ফন্ট সাইজ */
+.hero-desc {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* ==========================================
+   🎯 বাটন ২টির কোড (Height + Width সাইজ করার অপশন সহ)
+   ========================================== */
+
+/* primary button (height + width) */
+.btn.hero-btn-primary {
+  background-color: #C5A059 !important;
+  color: #fff !important;
+  font-size: 13px;
+  font-weight: 700;
+  
+  /* Height (উপরে-নিচে) ও Width (ডানে-বামে) সাইজ কম/বেশি করুন */
+  padding: 17px 35px !important; /* মান বাড়ালে বড় হবে, কমালে ছোট হবে */
+  
+  border-radius: 4px;
+  border: none;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.btn.hero-btn-primary:hover {
+  background-color: #b08d4b !important;
+  color: #fff !important;
+}
+
+/* outline button (height + width) */
+.btn.hero-btn-outline {
+  color: #fff !important;
+  border: 2px solid #fff !important;
+  font-size: 13px;
+  font-weight: 700;
+  
+  /* Height (উপরে-নিচে) ও Width (ডানে-বামে) সাইজ কম/বেশি করুন */
+  padding: 17px 35px !important; /* মান বাড়ালে বড় হবে, কমালে ছোট হবে */
+  
+  border-radius: 4px;
+  background-color: transparent !important;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.btn.hero-btn-outline:hover {
+  background-color: #fff !important;
+  color: #0b213a !important;
+  border-color: #fff !important;
+}
