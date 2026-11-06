@@ -20,6 +20,12 @@ body {
   padding-right: var(--site-padding) !important;
 }
 
+/* Swiper Pagination Active Bullet Color */
+.swiper-pagination-bullet-active,
+.swiper-pagination-horizontal .swiper-pagination-bullet-active {
+  background: #C5A059 !important;
+  opacity: 1 !important;
+}
 
 
 /* মোবাইলের জন্য আলাদা মার্জিন */

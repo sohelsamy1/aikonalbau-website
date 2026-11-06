@@ -5,6 +5,7 @@ import Hero from './Hero';
 import Service from './Service';
 import Features from './Features';
 import About from './About';
+import Slider from './Slider';
 
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
        <Service />
        <Features />
        <About />
+        <Slider />
     </main>
   );
 }
