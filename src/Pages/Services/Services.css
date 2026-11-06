@@ -1,0 +1,180 @@
+/* মডার্ন সার্ভিস কার্ড ডিজাইন */
+.services-grid-section {
+  background-color: #fcfcfc;
+}
+
+.subtitle-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #C5A059;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.section-main-title {
+  color: #0b213a;
+  font-weight: 800;
+  font-size: 2rem;
+  letter-spacing: -0.5px;
+}
+
+.title-underline {
+  width: 60px;
+  height: 3px;
+  background-color: #C5A059;
+  margin: 12px auto 0 auto;
+  border-radius: 2px;
+}
+
+.service-card-modern {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.35s ease;
+  border: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card-modern:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(11, 33, 58, 0.1);
+  border-color: #C5A059;
+}
+
+.card-img-wrapper {
+  overflow: hidden;
+  height: 200px;
+}
+
+.card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.service-card-modern:hover .card-img-wrapper img {
+  transform: scale(1.08);
+}
+
+.card-content-area {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.service-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0b213a;
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+}
+
+.service-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  flex-grow: 1;
+}
+
+.service-list li {
+  font-size: 13.5px;
+  color: #555;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.5;
+}
+
+.service-list li i {
+  color: #C5A059;
+  margin-right: 8px;
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+.card-btn-wrapper {
+  margin-top: auto;
+}
+
+.btn-anfrage {
+  display: block;
+  width: 100%;
+  background-color: #0b213a;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-anfrage:hover {
+  background-color: #C5A059;
+  color: #fff;
+}
+
+/* কেন আমাদের বেছে নেবেন সেকশন */
+.why-us-section {
+  background-color: #ffffff;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.text-gold {
+  color: #C5A059;
+  font-size: 1.5rem;
+}
+
+.feature-box-item {
+  background: #fdfdfd;
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 8px;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.feature-box-item:hover {
+  border-color: #C5A059;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+}
+
+.feature-box-item h6 {
+  font-weight: 700;
+  color: #0b213a;
+  margin-bottom: 5px;
+}
+
+.info-box-highlight {
+  background: linear-gradient(135deg, #0b213a 0%, #16365c 100%);
+  border-radius: 12px;
+}
+
+/* ব্রোশিওর বাটন স্টাইল */
+.btn-brochure {
+  display: inline-block;
+  background-color: #C5A059;
+  color: #fff;
+  font-weight: 700;
+  padding: 14px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(197, 160, 89, 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn-brochure:hover {
+  background-color: #091a2e;
+  color: #fff;
+  transform: translateY(-2px);
+}
