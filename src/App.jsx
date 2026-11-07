@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Ro
 import Header from './components/Header/Header'; 
 import Home from './Pages/Home/Home';
 import Footer from './components/Footer/Footer';
-import Services from './pages/Services/Services';
-import AboutUs from './pages/AboutUs/AboutUs';
+import Services from './Pages/Services/Services';
+import AboutUs from './Pages/AboutUs/AboutUs';
+import References from './pages/References/References'; 
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
          <Route path="/leistungen" element={<Services />} />
          <Route path="/uber-uns" element={<AboutUs />} />
+          <Route path="/referenzen" element={<References />} />
       </Routes>
       <Footer />
     </Router>
