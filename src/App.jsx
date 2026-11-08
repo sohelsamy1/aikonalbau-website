@@ -5,7 +5,7 @@ import Home from './Pages/Home/Home';
 import Footer from './components/Footer/Footer';
 import Services from './Pages/Services/Services';
 import AboutUs from './Pages/AboutUs/AboutUs';
-import References from './pages/References/References'; 
+import References from './Pages/References/References'; 
 
 function App() {
   return (
