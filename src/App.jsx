@@ -8,6 +8,7 @@ import AboutUs from './Pages/AboutUs/AboutUs';
 import References from './Pages/References/References'; 
 import Contact from './pages/Contact/Contact'; 
 import Accessibility from './Pages/Language/Accessibility';
+import EasyLanguage from './Pages/Language/EasyLanguage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
          <Route path="/referenzen" element={<References />} />
          <Route path="/kontakt" element={<Contact />} /> 
          <Route path="/Barrierefreiheit" element={<Accessibility />} />
+         <Route path="/leichte-sprache" element={<EasyLanguage />} />
       </Routes>
       <Footer />
     </Router>

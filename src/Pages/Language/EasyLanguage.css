@@ -1,0 +1,86 @@
+/* Easy Language Styles - aiko.nal Bau GmbH Theme */
+.accessibility-page {
+  max-width: 900px;
+  font-family: sans-serif;
+}
+
+.content-section {
+  background-color: #ffffff !important;
+  border-radius: 8px !important;
+  border: 1px solid rgba(11, 33, 58, 0.08) !important;
+  box-shadow: 0 10px 30px rgba(11, 33, 58, 0.05) !important;
+}
+
+.easy-title {
+  font-weight: 800;
+  color: #0b213a !important;
+  font-size: 2.2rem;
+  letter-spacing: 0.5px;
+  position: relative;
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+  border: none !important;
+  outline: none !important;
+}
+
+/* aiko.nal Bau GmbH Signature Golden Underline - পুরো চওড়া জুড়ে */
+.easy-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #C5A059 !important;
+  z-index: 2;
+}
+
+.easy-subtitle {
+  color: #C5A059 !important;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.content-section p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #334155;
+  margin-bottom: 15px;
+}
+
+/* Card Styling */
+.easy-card {
+  background-color: #ffffff !important;
+  border: 1px solid rgba(11, 33, 58, 0.08) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 4px solid #C5A059 !important; /* গোল্ডেন টপ বর্ডার */
+}
+
+.easy-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(11, 33, 58, 0.1) !important;
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-link-title {
+  color: #0b213a !important;
+  transition: color 0.2s ease;
+}
+
+.card-link-title:hover {
+  color: #C5A059 !important;
+}
+
+.custom-btn {
+  background-color: #0b213a !important;
+  border: none !important;
+  transition: background-color 0.2s ease;
+}
+
+.custom-btn:hover {
+  background-color: #C5A059 !important;
+}
