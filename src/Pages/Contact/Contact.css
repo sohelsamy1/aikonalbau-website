@@ -1,0 +1,94 @@
+/* কন্টাক্ট ফর্ম কার্ড প্রিমিয়াম লুক ও শ্যাডো */
+.modern-form-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(to bottom, #ffffff, #fcfcfc);
+}
+
+.modern-form-card:hover {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* নতুন প্রিমিয়াম ইন্ট্রোডাকশন বক্সের হোভার ও স্টাইল */
+.premium-intro-box {
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #fcfbfa 0%, #f7f4ed 100%) !important;
+  border: 1px solid #e9e3d5 !important;
+}
+
+.premium-intro-box:hover {
+  box-shadow: 0 10px 25px rgba(197, 160, 89, 0.08) !important;
+  transform: translateY(-2px);
+}
+
+/* আধুনিক এবং সফট ইনপুট ফিল্ড ডিজাইন */
+.modern-input {
+  padding: 12px 16px;
+  background-color: #f8fafc !important;
+  border: 1.5px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  font-size: 14.5px;
+  color: #1e293b;
+  transition: all 0.25s ease-in-out;
+}
+
+.modern-input:focus {
+  background-color: #ffffff !important;
+  border-color: #C5A059 !important;
+  box-shadow: 0 0 0 4px rgba(197, 160, 89, 0.12) !important;
+  outline: none;
+}
+
+/* প্লেসহোল্ডার টেক্সট কালার হালকা করা */
+.modern-input::placeholder {
+  color: #94a3b8;
+  opacity: 1;
+}
+
+/* ফর্ম লেবেল গ্যাপ ও স্টাইল */
+.form-label {
+  margin-bottom: 6px !important;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  color: #475569 !important;
+}
+
+/* সাবমিট বাটন প্রিমিয়াম গ্লো ও হভার ইফেক্ট */
+.submit-btn-custom {
+  background: linear-gradient(135deg, #C5A059 0%, #b08d4b 100%) !important;
+  border: none !important;
+  box-shadow: 0 4px 15px rgba(197, 160, 89, 0.3) !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.submit-btn-custom:hover {
+  background: linear-gradient(135deg, #b08d4b 0%, #9a783e 100%) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(197, 160, 89, 0.4) !important;
+}
+
+.submit-btn-custom:active {
+  transform: translateY(0);
+}
+
+/* ডেটপিকার উইথ ফুল উইডথ */
+.react-datepicker-wrapper {
+  display: block;
+  width: 100%;
+}
+
+.react-datepicker__input-container {
+  display: block;
+  width: 100%;
+}
+
+.react-datepicker__input-container input {
+  width: 100% !important;
+}
+
+.custom-box-bg {
+  background-color: #fdfdfc !important;
+  border: 1px solid #eee !important;
+  margin-top: -8px !important;
+  margin-bottom: 33px !important;
+}
