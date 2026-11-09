@@ -1,9 +1,26 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import './AboutUs.css';
 
 function AboutUs() {
   return (
     <div className="container py-5" style={{ fontFamily: 'sans-serif' }}>
+
+        <Helmet>
+        <title>Über Uns – Ihr Bauunternehmen für & Hochbau in Berlin | aiko.nal Bau GmbH</title>
+        <meta name="description" content="Erfahren Sie die Geschichte hinter aiko.nal Bau GmbH. Seit 2018 Ihr qualifizierter Partner in Berlin für Hochbau, Trockenbau, Fassadenbau und präzise Handwerkskunst." />
+        <meta name="keywords" content="aiko.nal Bau GmbH Über Uns, Bauunternehmen Berlin, Handwerkskunst Berlin, und Hochbau, Tradition und Moderne Bau, aiko.nal Bau GmbH Team" />
+        <link rel="canonical" href="https://aikonalbau.com/ueber-uns" />
+        <meta property="og:title" content="Über Uns – Ihr Bauunternehmen für Hochbau in Berlin | aiko.nal Bau GmbH" />
+        <meta property="og:description" content="Lernen Sie aiko.nal Bau GmbH kennen: Ihr verlässlicher Experte für Hochbau, Innenausbau und energetische in Berlin." />
+        <meta property="og:url" content="https://aikonalbau.com/ueber-uns" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://aikonalbau.com/STARTSEITE/about.webp" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Über Uns | aiko.nal Bau GmbH Berlin" />
+        <meta name="twitter:description" content="Entdecken Sie unsere Philosophie, Werte und Expertise im Bereich Hochbau, und moderner Handwerkskunst." />
+        <meta name="twitter:image" content="https://aikonalbau.com/STARTSEITE/about.webp" />
+      </Helmet>
       
       {/* Hero Sektion */}
       <section style={{ marginTop: '-20px', marginBottom: '50px' }}>
