@@ -1,10 +1,17 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import './Accessibility.css';
 
 const Accessibilitystatement = () => {
   return (
     <>
     
+      <Helmet>
+        <title>Erklärung zur Barrierefreiheit | aiko.nal Bau GmbH Berlin</title>
+        <meta name="description" content="Erfahren Sie die offizielle Erklärung zur Barrierefreiheit der aiko.nal Bau GmbH gemäß den gesetzlichen Standards für einen barrierefreien digitalen Zugang." />
+        <link rel="canonical" href="https://aikonalbau.com/barrierefreiheit" />
+      </Helmet>
+
       <div className="accessibility-page container py-5">
         <div className="content-section p-4 p-md-5 shadow-sm">
           
