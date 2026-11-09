@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import emailjs from '@emailjs/browser';
 import Select from 'react-select';
 
@@ -61,6 +62,27 @@ const ContactPage = () => {
   return (
     <div className="container py-5" style={{ fontFamily: 'sans-serif' }}>
   
+      <Helmet>
+        <title>Kontaktieren Sie aiko.nal Bau GmbH | Hochbau in Berlin</title>
+        <meta name="description" content="Haben Sie Fragen zu unseren Leistungen? Kontaktieren Sie aiko.nal Bau GmbH in Berlin für Hochbau, Fassadenbau, WDVS. Wir freuen uns auf Ihre Anfrage." />
+        <meta name="keywords" content="aiko.nal Bau GmbH, Hochbau Berlin, Fassadenbau, WDVS, Trockenbau, , Bauunternehmen Berlin" />
+        <meta name="author" content="aiko.nal Bau GmbH" />
+        <link rel="canonical" href="https://aikonalbau.com/kontakt" />
+        
+        {/* Open Graph / Social Media Meta Tags */}
+        <meta property="og:title" content="Kontaktieren Sie aiko.nal Bau GmbH | Hochbau  in Berlin" />
+        <meta property="og:description" content="Nehmen Sie Kontakt mit uns auf. Ihr Partner für professionellen Hochbau, Fassadenbau in Berlin." />
+        <meta property="og:url" content="https://aikonalbau.com/kontakt" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://aikonalbau.com/References/card1.webp" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Kontaktieren Sie aiko.nal Bau GmbH | Hochbau in Berlin" />
+        <meta name="twitter:description" content="Nehmen Sie Kontakt mit uns auf. Ihr Partner für professionellen Hochbau, Fassadenbau in Berlin." />
+        <meta name="twitter:image" content="https://aikonalbau.com/References/card1.webp" />
+      </Helmet>
+
       {/* ব্যানার সেকশন */}
       <section style={{ marginTop: '-20px', marginBottom: '40px' }}>
         <div className="custom-box-width"> 
