@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import './EasyLanguage.css';
 
@@ -6,6 +7,12 @@ const EasyLanguage = () => {
   return (
     <>
      
+     <Helmet>
+        <title>Leichte Sprache - Übersicht | aiko.nal Bau GmbH Berlin</title>
+        <meta name="description" content="Alle wichtigen Informationen über unsere Bauleistungen und professionellen Services einfach und verständlich in Leichter Sprache erklärt." />
+        <link rel="canonical" href="https://aikonalbau.com/leichte-sprache" />
+      </Helmet>
+      
       <div className="accessibility-page container py-5">
         {/* মেইন কন্টেন্ট সেকশন বক্স */}
         <div className="content-section p-4 p-md-5 shadow-sm mb-5">
