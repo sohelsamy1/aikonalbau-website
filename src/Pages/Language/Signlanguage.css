@@ -1,0 +1,68 @@
+/* Sign Language Page Styles - aiko.nal Bau GmbH Theme */
+.sign-language-page {
+  max-width: 900px;
+  font-family: sans-serif;
+}
+
+.content-section {
+  background-color: #ffffff !important;
+  border-radius: 8px !important;
+  border: 1px solid rgba(11, 33, 58, 0.08) !important;
+  box-shadow: 0 10px 30px rgba(11, 33, 58, 0.05) !important;
+}
+
+.sign-title {
+  font-weight: 800;
+  color: #0b213a !important;
+  font-size: 2.2rem;
+  letter-spacing: 0.5px;
+  position: relative;
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+  border: none !important;
+  outline: none !important;
+}
+
+/* aiko.nal Bau GmbH Signature Golden Underline - পুরো চওড়া জুড়ে */
+.sign-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #C5A059 !important;
+  z-index: 2;
+}
+
+.sign-subtitle {
+  color: #C5A059 !important;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.sign-heading {
+  font-weight: 700;
+  color: #0b213a !important;
+  font-size: 1.35rem;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #f1f5f9;
+}
+
+.content-section p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #334155;
+  margin-bottom: 15px;
+}
+
+.sign-info-box {
+  background-color: #f8f9fa !important;
+  border-radius: 6px !important;
+  border-left: 4px solid #C5A059 !important;
+  border: 1px solid #e2e8f0;
+}
+
+.sign-info-box h4 {
+  color: #0b213a !important;
+}

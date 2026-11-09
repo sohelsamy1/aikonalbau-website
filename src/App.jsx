@@ -9,6 +9,7 @@ import References from './Pages/References/References';
 import Contact from './pages/Contact/Contact'; 
 import Accessibility from './Pages/Language/Accessibility';
 import EasyLanguage from './Pages/Language/EasyLanguage';
+import Signlanguage from './pages/Language/Signlanguage';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
          <Route path="/kontakt" element={<Contact />} /> 
          <Route path="/Barrierefreiheit" element={<Accessibility />} />
          <Route path="/leichte-sprache" element={<EasyLanguage />} />
+         <Route path="/Gebärdensprache" element={<Signlanguage />} />
       </Routes>
       <Footer />
     </Router>
