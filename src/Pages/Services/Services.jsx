@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import './Services.css';
 
@@ -32,7 +33,17 @@ function Service() {
 
   return (
     <>
-   
+      <Helmet>
+        <title>Leistungen & Baudienstleistungen in Berlin | aiko.nal Bau GmbH</title>
+        <meta name="description" content="Erfahren Sie mehr über das professionelle Leistungsspektrum von aiko.nal Bau GmbH in Berlin: Hochbau, Trockenbau, Innenputz, WDVS." />
+        <meta name="keywords" content="aiko.nal Bau GmbH Leistungen, Hochbau Berlin, Trockenbau, WDVS, Fassadenbau" />
+        <link rel="canonical" href="https://aikonalbau.com/leistungen" />
+        <meta property="og:title" content="Leistungen & Baudienstleistungen in Berlin | aiko.nal Bau GmbH" />
+        <meta property="og:description" content="Entdecken Sie unsere Baudienstleistungen in Berlin: Hochbau, Trockenbau und mehr." />
+        <meta property="og:url" content="https://aikonalbau.com/leistungen" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://aikonalbau.com/assets/logo-og.jpg" />
+      </Helmet>
 
       {/* ব্যানার সেকশন */}
       <section className="py-4" style={{ backgroundColor: '#ffffff', fontFamily: 'sans-serif' }}>
