@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import './References.css';
@@ -48,8 +49,22 @@ const References = () => {
   ];
 
   return (
-    <section className="references-section">
-      
+    <section className="references-section">      
+      <Helmet>
+        <title>Referenzen & Bauprojekte in Berlin | aiko.nal Bau GmbH</title>
+        <meta name="description" content="Entdecken Sie erfolgreiche Referenzprojekte von aiko.nal Bau GmbH in Berlin wie Am Schlosspark und Martin-Luther-Straße. Erfahren Sie mehr über unsere Arbeit in Hochbau, WDVS ." />
+        <meta name="keywords" content="aiko.nal Bau GmbH Referenzen, Bauprojekte Berlin, Am Schlosspark Berlin, Martin-Luther-Straße Projekt, WDVS Referenzen Berlin, Referenzen, Fassadenbau Berlin" />
+        <link rel="canonical" href="https://aikonalbau.com/referenzen" />
+        <meta property="og:title" content="Referenzen & Bauprojekte in Berlin | aiko.nal Bau GmbH" />
+        <meta property="og:description" content="Entdecken Sie unsere realisierten Bau- und Sanierungsprojekte in Berlin: Am Schlosspark, Martin-Luther-Straße und mehr." />
+        <meta property="og:url" content="https://aikonalbau.com/referenzen" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://aikonalbau.com/References/card1.webp" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Referenzen | aiko.nal Bau GmbH Berlin" />
+        <meta name="twitter:description" content="Sehen Sie sich unsere abgeschlossenen Projekte und Referenzen im Bereich Hochbau, WDVS in Berlin an." />
+        <meta name="twitter:image" content="https://aikonalbau.com/References/card1.webp" />
+      </Helmet>
       {/* ─── ১. টপ হেডার সেকশন (অপরিবর্তিত) ─── */}
       <div className="container mb-5">
         <div className="row g-0 text-white ref-header-box">
