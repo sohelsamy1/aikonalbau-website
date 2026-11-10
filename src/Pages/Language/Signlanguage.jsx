@@ -1,13 +1,17 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import './Signlanguage.css';
 const Signlanguage = () => {
   return (
-    <>
-      
+    <>    
+      <Helmet>
+        <title>Gebärdensprache & Inklusion | aiko.nal Bau GmbH Berlin</title>
+        <meta name="description" content="Entdecken Sie unsere Erklärvideos in Deutscher Gebärdensprache (DGS) für eine barrierefreie und inklusive Navigation auf der aiko.nal Bau GmbH Website." />
+        <link rel="canonical" href="https://aikonalbau.com/gebaerdensprache" />
+      </Helmet>
       <div className="sign-language-page container py-5">
         <div className="content-section p-4 p-md-5 shadow-sm">
           
-          {/* Main Title with Full-Width Golden Underline Effect */}
           <h1 className="sign-title mb-3">
             Gebärdensprache & Barrierefreiheit
           </h1>
